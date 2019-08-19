@@ -1,6 +1,6 @@
-import { PostModel } from '../models/postModel';
 
-export const MockedPosts: PostModel[] = [
+
+export const MockedPosts = [
 
   {
     title: 'Some title 1',
