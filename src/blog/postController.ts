@@ -19,7 +19,7 @@ export class PostController {
   }
 
   @Post()
-  create(@Body() createPostDto: CreatePostDto) {
+  create(@Body() createPostDto: CreatePostDto): Promise<CreatePostDto> {
      return this.postService.create(createPostDto);
 
   }
